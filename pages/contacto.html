@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nilo Bakery - Eventos</title>
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <!-- Importacion Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Importacion GFonts -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Liter&display=swap');
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html">
+                            <img class="logo" src="../assets/img/logo.png" alt="Logo de Nilo Bakery">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a class="nav-link" href="../index.html">INICIO</a></li>
+                                <li class="nav-item"><a class="nav-link" href="catalogo.html">CATALOGO</a></li>
+                                <li class="nav-item"><a class="nav-link" href="empresariales.html">EMPRESARIALES</a></li>
+                                <li class="nav-item"><a class="nav-link" href="eventos.html">EVENTOS</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="contacto.html">CONTACTO</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    <main>
+        <section class="contacto-form">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6">
+                        <div class="contacto-form-content">
+                            <h1 class="text-center mb-4">Contacto</h1>
+                            <form class="contacto-formulario">
+                                <div class="mb-3">
+                                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" id="email" name="email" placeholder="Email" required class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" id="empresa" name="empresa" placeholder="Empresa (opcional)" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required class="form-control" rows="5"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <input type="submit" value="Enviar" class="btn-submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container container d-flex justify-content-center align-items-center">
+            <div class="flex-item">
+                <div class="footer-redes">
+                    <a href="https://www.facebook.com/"><img src="../assets/img/facebook_icon.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/"><img src="../assets/img/instagram_icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="logo-contacto pe-5 ps-5">
+                    <a href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="Logo de Nilo Bakery"></a>
+                </div>
+            </div>
+            <div class="flex-item">
+                <div class="footer-contacto ">
+                    <a href="contacto.html"><h3>Contacto</h3></a>
+                </div>
+            </div>
+            
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
